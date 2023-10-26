@@ -27,9 +27,9 @@ jobs:
        - name: Print OS-release
         run: cat /etc/os-release
         
-      #- name: Install dependencies
-       # working-directory: ./07-job-matrix
-        #run: npm ci
+      - name: Install dependencies
+        working-directory: ./07-job-matrix
+        run: npm ci
         
       - name: Run tests
         working-directory: ./07-job-matrix
