@@ -13,7 +13,7 @@ jobs:
         os: [ubuntu-22.04, windowd10]
         node: [14, 16, 18]
         exclude:
-        - os: ubuntu-18.04
+        - os: windowd10
           node: 14
 
     runs-on: ${{ matrix.os }}
