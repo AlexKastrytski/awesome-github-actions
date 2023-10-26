@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           
-       - name: Print OS-release
+      - name: Print OS-release
         run: cat /etc/os-release
         
       - name: Install dependencies
